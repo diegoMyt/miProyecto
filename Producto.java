@@ -3,7 +3,14 @@ public class Producto{
 	private String nombre;
 	private String cantidad;
 
-	public Producto{
+	public Producto(){
 		//constructor
 	}
+	public int getId(){
+	return this.id;
+}
+
+public void setId(int id){
+	this.id=id;
+}
 }
